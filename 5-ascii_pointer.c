@@ -37,7 +37,7 @@ int print_ascii(va_list S)
 
 /**
  * print_pointer - Print the address stored in the pointer
- * @p: Argument passed to the function
+ * @l: Argument passed to the function
  * Return: The amount of characters printed
  */
 
@@ -84,7 +84,6 @@ char *convert(unsigned long int num, int base, int lowercase)
 
 	return (ptr);
 }
-	
 
 
 /**
